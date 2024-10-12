@@ -1,0 +1,35 @@
+# FastAPI for building APIs
+fastapi
+
+# ASGI server for running FastAPI applications
+uvicorn
+
+# SQLAlchemy for ORM (Object-Relational Mapping)
+SQLAlchemy
+
+# Alembic for database migrations
+alembic
+
+# Pydantic for data validation
+pydantic
+
+# PostgreSQL adapter (assuming you're using PostgreSQL as the database)
+psycopg2-binary
+
+# For JWT token generation and security (if used in your app)
+python-jose
+
+# Passlib for password hashing (if needed for your app)
+passlib[bcrypt]
+
+# Email sending utility (if you're using it in utils/email_service.py)
+yagmail
+
+# For managing async tasks, if RabbitMQ or other task queues are used
+aio_pika
+
+# Optional dependencies for testing
+pytest
+httpx
+python-dotenv
+email-validator
