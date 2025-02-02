@@ -103,7 +103,7 @@ class SellerBase(BaseModel):
     id: int
     name: str
     email: EmailStr
-    phone_number: Optional[str] = None
+    phoneNumber: Optional[str] = None
     business_license: Optional[str] = None  # Useful for B2B
     address: Optional[str] = None
     warehouse_location: Optional[str] = None  # Location of seller's main warehouse
@@ -119,7 +119,7 @@ class SellerBase(BaseModel):
 class SellerCreate(BaseModel):
     name: str
     email: EmailStr
-    phone_number: Optional[str] = None
+    phoneNumber: Optional[str] = None
     business_license: Optional[str] = None  # Relevant for B2B
     address: Optional[str] = None
     warehouse_location: Optional[str] = None

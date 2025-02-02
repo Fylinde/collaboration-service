@@ -12,7 +12,7 @@ PhoneNumber = Annotated[
 class SellerBase(BaseModel):
     name: str
     email: EmailStr
-    phone_number: Optional[PhoneNumber] = None
+    phoneNumber: Optional[PhoneNumber] = None
     business_license: Optional[str] = None
     address: Optional[str] = None
     warehouse_location: Optional[str] = None
@@ -26,7 +26,7 @@ class SellerCreate(SellerBase):
 class SellerBase(BaseModel):
     name: str
     email: EmailStr
-    phone_number: Optional[PhoneNumber] = None
+    phoneNumber: Optional[PhoneNumber] = None
     business_license: Optional[str] = None
     address: Optional[str] = None
     warehouse_location: Optional[str] = None

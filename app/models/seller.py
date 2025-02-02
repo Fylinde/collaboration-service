@@ -9,7 +9,7 @@ class SellerModel(BaseModel):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(255), nullable=False)  # Seller's name (Company or Individual)
     email = Column(String(255), unique=True, nullable=False)  # Contact email
-    phone_number = Column(String(20), nullable=True)  # Contact number
+    phoneNumber = Column(String(20), nullable=True)  # Contact number
     business_license = Column(String(100), nullable=True)  # Business license (for B2B)
     address = Column(String(255), nullable=True)  # Seller's main business address
     warehouse_location = Column(String(255), nullable=True)  # Primary warehouse location
